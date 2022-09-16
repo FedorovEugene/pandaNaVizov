@@ -47,9 +47,9 @@
     background-color: white; 
     border-radius: 0.2em;
     box-shadow: 0 0 0.1em 0.1em white inset;   
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
 }
 
 .carousel-inner img {
@@ -76,3 +76,14 @@
     margin-top: 11em;
     margin-right: 10em;
 }
+
+.d-block {
+    border-radius: 10em;
+    box-shadow: 0 0 2em 2em white inset;
+    min-height: 50em;
+    min-width: 35em;
+    width:auto;
+    margin-top: 2em;
+    align-items: center;
+}
+
